@@ -1,13 +1,9 @@
 package home.dev.model;
 
-
-//import javax.persistence.Entity;
-
 import ealvatag.tag.FieldKey;
 import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.stereotype.Component;
 
-//@Entity
 @Component
 @Schema(description = "Сущность пользователя")
 public class EditRequest {
